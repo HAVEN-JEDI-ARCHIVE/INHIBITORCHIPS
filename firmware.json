@@ -2,9 +2,39 @@
   "versions": [
     "CMD-001",
     "Officer-002",
-    "nco-003",
-    "trooper-004"
+    "NCO-003",
+    "Trooper-004"
   ],
-  "jobs": {},
-  "categories": {}
+  "jobs": {
+    "NADM": "CMD-001",
+    "NXO": "CMD-001",
+    "501stcmdr": "CMD-001",
+    "501stxo": "CMD-001",
+    "cgcmdr": "CMD-001",
+    "cgxo": "CMD-001",
+    "21stcmdr": "CMD-001",
+    "21stxo": "CMD-001",
+    "sentinelwc": "CMD-001",
+    "NOF": "Officer-002",
+    "NMOF": "Officer-002",
+    "NENG": "Officer-002",
+    "501stco": "Officer-002",
+    "cgco": "Officer-002",
+    "21stco": "Officer-002",
+    "sentinelsqc": "Officer-002",
+    "sentinelfl": "Officer-002",
+    "medical": "NCO-003",
+    "501M": "NCO-003",
+    "SGKM": "NCO-003",
+    "21M": "NCO-003"
+  },
+  "categories": {
+    "12th Naval Fleet": "Trooper-004",
+    "501st Battalion": "Trooper-004",
+    "Coruscant Guard": "Trooper-004",
+    "21st Battalion": "Trooper-004",
+    "Sentinel Wing (Pilot Core)": "Trooper-004",
+    "1st Battalion": "Trooper-004",
+    "Unassigned Clones": "Trooper-004"
+  }
 }
