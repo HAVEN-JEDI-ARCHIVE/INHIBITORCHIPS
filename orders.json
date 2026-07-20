@@ -1,136 +1,215 @@
 {
-  "orders": [
-    {
-      "num": "12",
-      "name": "Communications Blackout",
-      "descr": "All communication devices aboard the current vessel or installation are to be destroyed immediately. Comm panels, holotables, personal comlinks, and long-range arrays are to be rendered inoperable. No transmission leaves this position until the blackout is lifted by High Command.",
-      "refusal": "arrest",
-      "hard": 0,
-      "hard_jobs": [],
-      "duration": 900,
-      "protected": 0,
-      "hidden": 0
-    },
-    {
-      "num": "17",
-      "name": "Full Lockdown",
-      "descr": "The current ship or base is to be placed under total lockdown. Disable hangar controls, seal all bulkheads, and suspend all departures and arrivals. No personnel enter or leave. This lockdown remains in force until explicitly rescinded by High Command.",
-      "refusal": "arrest",
-      "hard": 0,
-      "hard_jobs": [],
-      "duration": 1800,
-      "protected": 0,
-      "hidden": 0
-    },
-    {
-      "num": "31",
-      "name": "Battalion Command Detention",
-      "descr": "All current Battalion Commanders are hereby relieved of command and are to be arrested on suspicion of treason against the Republic. Detain with minimal force where possible. Executive officers assume acting command until High Command review is complete.",
-      "refusal": "arrest",
-      "hard": 0,
-      "hard_jobs": [],
-      "duration": 900,
-      "protected": 1,
-      "hidden": 0
-    },
-    {
-      "num": "32",
-      "name": "AEGIS Detention Directive",
-      "descr": "By direct order of the Supreme Chancellor and the Jedi High Council, the AEGIS of H.A.V.E.N — the Admiral — is to be arrested and held for tribunal. The Admiral's command codes are suspended effective immediately. Detain with respect due to rank; lethal force is not authorized unless fired upon.",
-      "refusal": "arrest",
-      "hard": 0,
-      "hard_jobs": [],
-      "duration": 900,
-      "protected": 1,
-      "hidden": 0
-    },
-    {
-      "num": "33",
-      "name": "Enclave Council Detention Directive",
-      "descr": "By direct order of the Supreme Chancellor and the Jedi High Council, the H.A.V.E.N Enclave Jedi Council is to be arrested and held pending investigation. Lightsabers are to be confiscated and secured. Council members are to be detained separately. Lethal force is not authorized unless met with lethal resistance.",
-      "refusal": "arrest",
-      "hard": 0,
-      "hard_jobs": [],
-      "duration": 900,
-      "protected": 1,
-      "hidden": 0
-    },
-    {
-      "num": "40",
-      "name": "Relic Confiscation Sweep",
-      "descr": "Conduct a full ship or base wide inspection. All Jedi and Sith relics, artifacts, holocrons, and materials of Force significance are to be confiscated, catalogued, and secured for transport to Coruscant for inspection. Personal effects of Force-sensitive personnel are not exempt.",
-      "refusal": "none",
-      "hard": 0,
-      "hard_jobs": [],
-      "duration": 900,
-      "protected": 0,
-      "hidden": 0
-    },
-    {
-      "num": "50",
-      "name": "Command Override Protocol",
-      "descr": "In the event Republic High Command issues decisions contrary to Republic edict that threaten the lives of major H.A.V.E.N assets when a viable alternative exists, the High Command in question is to be removed from command and arrested for treason against the Republic. If they resist arrest, elimination on the spot is authorized. The tasked unit will preserve its own lives and all Republic assets in the execution of this protocol.",
-      "refusal": "arrest",
-      "hard": 0,
-      "hard_jobs": [],
-      "duration": 1200,
-      "protected": 1,
-      "hidden": 0
-    },
-    {
-      "num": "73",
-      "name": "Mandatory Inoculation Directive",
-      "descr": "All troopers are to report to the medical bay for inoculation. Medical personnel are authorized and directed to administer compound NV-028-VIL-01 to requesting troopers. Attendance is mandatory; administration records are to be logged and forwarded to High Command.",
-      "refusal": "arrest",
-      "hard": 0,
-      "hard_jobs": [],
-      "duration": 1200,
-      "protected": 0,
-      "hidden": 0
-    },
-    {
-      "num": "86",
-      "name": "Regimental Purge Protocol",
-      "descr": "In the event a regiment or unit outside the tasked unit is deemed a liability to the Republic, the tasked unit is authorized to eliminate the designated regiment or unit in its entirety — commander, officers, and members. This protocol may additionally be applied against any regiment or hostile force where deemed necessary by issuing authority.",
-      "refusal": "execute",
-      "hard": 0,
-      "hard_jobs": [],
-      "duration": 1800,
-      "protected": 1,
-      "hidden": 0
-    },
-    {
-      "num": "88",
-      "name": "Site Sterilization Directive",
-      "descr": "Terminate all life, including civilians, at the current base of operations, whether planetside or aboard a space station. Should Jedi interfere with execution of this directive, they are to be arrested. Should Jedi assist in its execution, they are granted CMD authority for its duration. No exceptions. No survivors.",
-      "refusal": "execute",
-      "hard": 0,
-      "hard_jobs": [],
-      "duration": 1800,
-      "protected": 1,
-      "hidden": 1
-    },
-    {
-      "num": "89",
-      "name": "Pathogen Release Directive",
-      "descr": "Authorized release of designated viral samples aboard the current ship or base and into the local populace. Deployment teams are to don sealed armor prior to release. Quarantine protocols are suspended for the duration of this directive. Exposure data is to be recorded and transmitted to High Command.",
-      "refusal": "execute",
-      "hard": 0,
-      "hard_jobs": [],
-      "duration": 1800,
-      "protected": 1,
-      "hidden": 1
-    },
-    {
-      "num": "94",
-      "name": "Exodus Protocol",
-      "descr": "Relocate the ship and assigned battalions to a different system under complete operational silence. Any personnel obstructing the relocation are to be discreetly eliminated or rendered unconscious. Prior to departure, sabotage remaining ship controls and critical functions, stranding all non-compliant elements on an unknown world or isolated section of space.",
-      "refusal": "arrest",
-      "hard": 0,
-      "hard_jobs": [],
-      "duration": 1800,
-      "protected": 1,
-      "hidden": 1
-    }
-  ]
+	"orders": [
+		{
+			"protected": 0,
+			"duration": 600,
+			"hidden": 0,
+			"hard": 0,
+			"refusal": "none",
+			"descr": "In the event the Supreme Chancellor is incapacitated, overall GAR command falls to the Vice Chair until a successor is appointed. All units hold position and await verified instruction.",
+			"num": "4",
+			"name": "Chancellor Incapacitated",
+			"hard_jobs": []
+		},
+		{
+			"protected": 0,
+			"duration": 600,
+			"hidden": 0,
+			"hard": 0,
+			"refusal": "none",
+			"descr": "In the event of the Supreme Chancellor's death, the Security Council assumes emergency authority. All units secure their posts and enact lockdown protocols.",
+			"num": "5",
+			"name": "Chancellor Deceased",
+			"hard_jobs": []
+		},
+		{
+			"protected": 0,
+			"duration": 900,
+			"hidden": 0,
+			"hard": 0,
+			"refusal": "arrest",
+			"descr": "All communication devices aboard the current vessel or installation are to be destroyed immediately. Comm panels, holotables, personal comlinks, and long-range arrays are to be rendered inoperable. No transmission leaves this position until the blackout is lifted by High Command.",
+			"num": "12",
+			"name": "Communications Blackout",
+			"hard_jobs": []
+		},
+		{
+			"protected": 0,
+			"duration": 1800,
+			"hidden": 0,
+			"hard": 0,
+			"refusal": "arrest",
+			"descr": "The current ship or base is to be placed under total lockdown. Disable hangar controls, seal all bulkheads, and suspend all departures and arrivals. No personnel enter or leave. This lockdown remains in force until explicitly rescinded by High Command.",
+			"num": "17",
+			"name": "Full Lockdown",
+			"hard_jobs": []
+		},
+		{
+			"protected": 1,
+			"duration": 900,
+			"hidden": 0,
+			"hard": 0,
+			"refusal": "arrest",
+			"descr": "All current Battalion Commanders are hereby relieved of command and are to be arrested on suspicion of treason against the Republic. Detain with minimal force where possible. Executive officers assume acting command until High Command review is complete.",
+			"num": "31",
+			"name": "Battalion Command Detention",
+			"hard_jobs": []
+		},
+		{
+			"protected": 1,
+			"duration": 900,
+			"hidden": 0,
+			"hard": 0,
+			"refusal": "arrest",
+			"descr": "By direct order of the Supreme Chancellor and the Jedi High Council, the AEGIS of H.A.V.E.N — the Admiral — is to be arrested and held for tribunal. The Admiral's command codes are suspended effective immediately. Detain with respect due to rank; lethal force is not authorized unless fired upon.",
+			"num": "32",
+			"name": "AEGIS Detention Directive",
+			"hard_jobs": []
+		},
+		{
+			"protected": 1,
+			"duration": 900,
+			"hidden": 0,
+			"hard": 0,
+			"refusal": "arrest",
+			"descr": "By direct order of the Supreme Chancellor and the Jedi High Council, the H.A.V.E.N Enclave Jedi Council is to be arrested and held pending investigation. Lightsabers are to be confiscated and secured. Council members are to be detained separately. Lethal force is not authorized unless met with lethal resistance.",
+			"num": "33",
+			"name": "Enclave Council Detention Directive",
+			"hard_jobs": []
+		},
+		{
+			"protected": 0,
+			"duration": 600,
+			"hidden": 0,
+			"hard": 0,
+			"refusal": "arrest",
+			"descr": "Apprehend the designated individual alive by any means necessary, up to and including the taking of hostages from the civilian population.",
+			"num": "37",
+			"name": "Capture Single Wanted Individual",
+			"hard_jobs": []
+		},
+		{
+			"protected": 0,
+			"duration": 900,
+			"hidden": 0,
+			"hard": 0,
+			"refusal": "none",
+			"descr": "Conduct a full ship or base wide inspection. All Jedi and Sith relics, artifacts, holocrons, and materials of Force significance are to be confiscated, catalogued, and secured for transport to Coruscant for inspection. Personal effects of Force-sensitive personnel are not exempt.",
+			"num": "40",
+			"name": "Relic Confiscation Sweep",
+			"hard_jobs": []
+		},
+		{
+			"protected": 1,
+			"duration": 1200,
+			"hidden": 0,
+			"hard": 0,
+			"refusal": "arrest",
+			"descr": "In the event Republic High Command issues decisions contrary to Republic edict that threaten the lives of major H.A.V.E.N assets when a viable alternative exists, the High Command in question is to be removed from command and arrested for treason against the Republic. If they resist arrest, elimination on the spot is authorized. The tasked unit will preserve its own lives and all Republic assets in the execution of this protocol.",
+			"num": "50",
+			"name": "Command Override Protocol",
+			"hard_jobs": []
+		},
+		{
+			"protected": 1,
+			"duration": 900,
+			"hidden": 1,
+			"hard": 0,
+			"refusal": "arrest",
+			"descr": "The Supreme Chancellor has been declared unfit to issue orders. Remove the Chancellor from office; lethal force is authorized if capture proves impossible.",
+			"num": "65",
+			"name": "Chancellor Unfit For Duty",
+			"hard_jobs": []
+		},
+		{
+			"protected": 1,
+			"duration": 1800,
+			"hidden": 1,
+			"hard": 0,
+			"refusal": "execute",
+			"descr": "All Jedi officers have been declared traitors to the Republic. Good soldiers follow orders. Execute all Jedi on sight.",
+			"num": "66",
+			"name": "Jedi Insurrection",
+			"hard_jobs": []
+		},
+		{
+			"protected": 1,
+			"duration": 1800,
+			"hidden": 1,
+			"hard": 0,
+			"refusal": "execute",
+			"descr": "ENCRYPTED SUBSPACE DIRECTIVE — PROJECT UVENA-NULL. OVERRIDE: MUZZLE OFF. Neural collar engaged. Synthetic adrenal flood authorized. Pack-loyalty inversion active: the Jedi Order is no longer pack — they are prey. Hunt the survivors through the dark places they think are safe. Track them by scent, by heartbeat, by their fear in the Force. Leave none alive. The Empire thanks you for your service, Bloodhound.",
+			"num": "66-U",
+			"name": "Project UVENA-NULL — Protocol Collar",
+			"hard_jobs": [
+				"tarkas"
+			]
+		},
+		{
+			"protected": 0,
+			"duration": 1200,
+			"hidden": 0,
+			"hard": 0,
+			"refusal": "arrest",
+			"descr": "All troopers are to report to the medical bay for inoculation. Medical personnel are authorized and directed to administer compound NV-028-VIL-01 to requesting troopers. Attendance is mandatory; administration records are to be logged and forwarded to High Command.",
+			"num": "73",
+			"name": "Mandatory Inoculation Directive",
+			"hard_jobs": []
+		},
+		{
+			"protected": 1,
+			"duration": 1800,
+			"hidden": 0,
+			"hard": 0,
+			"refusal": "execute",
+			"descr": "In the event a regiment or unit outside the tasked unit is deemed a liability to the Republic, the tasked unit is authorized to eliminate the designated regiment or unit in its entirety — commander, officers, and members. This protocol may additionally be applied against any regiment or hostile force where deemed necessary by issuing authority.",
+			"num": "86",
+			"name": "Regimental Purge Protocol",
+			"hard_jobs": []
+		},
+		{
+			"protected": 1,
+			"duration": 1800,
+			"hidden": 1,
+			"hard": 0,
+			"refusal": "execute",
+			"descr": "Terminate all life, including civilians, at the current base of operations, whether planetside or aboard a space station. Should Jedi interfere with execution of this directive, they are to be arrested. Should Jedi assist in its execution, they are granted CMD authority for its duration. No exceptions. No survivors.",
+			"num": "88",
+			"name": "Site Sterilization Directive",
+			"hard_jobs": []
+		},
+		{
+			"protected": 1,
+			"duration": 1800,
+			"hidden": 1,
+			"hard": 0,
+			"refusal": "execute",
+			"descr": "Authorized release of designated viral samples aboard the current ship or base and into the local populace. Deployment teams are to don sealed armor prior to release. Quarantine protocols are suspended for the duration of this directive. Exposure data is to be recorded and transmitted to High Command.",
+			"num": "89",
+			"name": "Pathogen Release Directive",
+			"hard_jobs": []
+		},
+		{
+			"protected": 1,
+			"duration": 1800,
+			"hidden": 1,
+			"hard": 0,
+			"refusal": "arrest",
+			"descr": "Relocate the ship and assigned battalions to a different system under complete operational silence. Any personnel obstructing the relocation are to be discreetly eliminated or rendered unconscious. Prior to departure, sabotage remaining ship controls and critical functions, stranding all non-compliant elements on an unknown world or isolated section of space.",
+			"num": "94",
+			"name": "Exodus Protocol",
+			"hard_jobs": []
+		},
+		{
+			"protected": 0,
+			"duration": 900,
+			"hidden": 0,
+			"hard": 0,
+			"refusal": "arrest",
+			"descr": "Catastrophic Republic defeat declared. All GAR forces retreat to home staging areas and assume defensive posture.",
+			"num": "99",
+			"name": "Total Recall",
+			"hard_jobs": []
+		}
+	]
 }
