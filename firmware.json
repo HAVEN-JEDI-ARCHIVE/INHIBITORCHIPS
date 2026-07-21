@@ -1,5 +1,6 @@
 {
 	"categories": {
+		"H.A.V.E.N High Command": "CMD-001",
 		"21st Battalion": "Trooper-004",
 		"Sentinel Wing (Pilot Core)": "Trooper-004",
 		"1st Battalion": "Trooper-004",
@@ -17,19 +18,19 @@
 		"501stxo": "CMD-001",
 		"21stxo": "CMD-001",
 		"medical": "NCO-003",
-		"501stcmdr": "CMD-001",
+		"21stco": "Officer-002",
 		"sentinelfl": "Officer-002",
-		"cgco": "Officer-002",
 		"21M": "NCO-003",
 		"501M": "NCO-003",
+		"cgco": "Officer-002",
 		"SGKM": "NCO-003",
 		"cgcmdr": "CMD-001",
-		"501stco": "Officer-002",
-		"NMOF": "Officer-002",
 		"cgxo": "CMD-001",
+		"NMOF": "Officer-002",
+		"501stcmdr": "CMD-001",
 		"21stcmdr": "CMD-001",
 		"NXO": "CMD-001",
-		"21stco": "Officer-002"
+		"501stco": "Officer-002"
 	},
 	"versions": [
 		"CMD-001",
