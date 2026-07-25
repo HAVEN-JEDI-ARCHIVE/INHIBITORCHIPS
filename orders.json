@@ -210,6 +210,17 @@
 			"num": "99",
 			"name": "Total Recall",
 			"hard_jobs": []
+		},
+		{
+			"protected": 0,
+			"duration": 600,
+			"hidden": 0,
+			"hard": 0,
+			"refusal": "none",
+			"descr": "All Troopers, And Officers Report to your bunks, Commanders Report to the CMD Briefing Room. Get it prepared for Inspection by H.A.V.E.N High Command & Jedi High Command.\n(If CMD briefing has been held, CMDRs report to bunks)",
+			"num": "122",
+			"name": "Battalion Bunk Inspection",
+			"hard_jobs": []
 		}
 	]
 }
