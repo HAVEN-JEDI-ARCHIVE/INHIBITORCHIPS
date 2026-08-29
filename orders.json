@@ -286,6 +286,18 @@
       "targeting": 1,
       "hard": 0,
       "protected": 0
+    },
+    {
+      "num": "189-I",
+      "name": "Designated HAVEN Council Member Check-Up",
+      "descr": "Attention HAVEN Medical staff, please request the designated HAVEN Council member to the medical bay for a checkup and innoculations due to recent Viral outbreaks. A kaminoan medical officer will take over the checkup and procedure. \n\nThis is a hard enforcement order, refusal is treason. ",
+      "refusal": "arrest",
+      "duration": 1800,
+      "hidden": 1,
+      "galactic": 1,
+      "targeting": 1,
+      "hard": 1,
+      "protected": 0
     }
   ]
 }
