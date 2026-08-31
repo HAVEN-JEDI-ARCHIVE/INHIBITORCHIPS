@@ -298,6 +298,18 @@
       "targeting": 1,
       "hard": 1,
       "protected": 0
+    },
+    {
+      "num": "ORDER 65",
+      "name": "Chancellor Treason",
+      "descr": "\"In the event of either (i) a majority in the Senate declaring the Supreme Commander (Chancellor) to be unfit to issue orders, or (ii) the Security Council declaring him or her to be unfit to issue orders, and an authenticated order being received by the GAR, commanders shall be authorized to detain the Supreme Commander, with lethal force if necessary, and command of the GAR shall fall to the acting Chancellor until a successor is appointed...\"\n\nAll previous executive orders are rescended. ",
+      "refusal": "arrest",
+      "duration": 1800,
+      "hidden": 1,
+      "galactic": 1,
+      "targeting": 0,
+      "hard": 0,
+      "protected": 1
     }
   ]
 }
