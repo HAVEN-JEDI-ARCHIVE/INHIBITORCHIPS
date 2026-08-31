@@ -26,6 +26,18 @@
       "steamid": "",
       "issuer": "Sovereign",
       "ts": 1788135483
+    },
+    {
+      "id": "c1788135593729_4169",
+      "num": "66",
+      "scope": "firmware",
+      "firmware": [
+        "CMD-001",
+        "Officer-002"
+      ],
+      "steamid": "",
+      "issuer": "Sovereign",
+      "ts": 1788135593
     }
   ]
 }
