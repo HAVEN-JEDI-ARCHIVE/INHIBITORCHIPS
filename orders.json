@@ -105,16 +105,16 @@
       "hard_jobs": []
     },
     {
-      "protected": 0,
-      "duration": 900,
-      "hidden": 0,
-      "hard": 0,
-      "galactic": 0,
-      "refusal": "none",
-      "targeting": 0,
-      "descr": "Conduct a full ship or base wide inspection. All Jedi and Sith relics, artifacts, holocrons, and materials of Force significance are to be confiscated, catalogued, and secured for transport to Coruscant for inspection. Personal effects of Force-sensitive personnel are not exempt.",
       "num": "40",
       "name": "Relic Confiscation Sweep",
+      "descr": "Conduct a full ship or base wide inspection. All Jedi and Sith relics, artifacts, holocrons, and materials of Force significance are to be confiscated, catalogued, and secured for transport to Coruscant for inspection. Personal effects of Force-sensitive personnel are not exempt. Except those stores in the Jedi Temple which is off limits. ",
+      "refusal": "none",
+      "duration": 900,
+      "hidden": 0,
+      "galactic": 0,
+      "targeting": 0,
+      "hard": 0,
+      "protected": 0,
       "hard_jobs": []
     },
     {
