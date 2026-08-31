@@ -38,6 +38,15 @@
       "steamid": "",
       "issuer": "Sovereign",
       "ts": 1788135593
+    },
+    {
+      "id": "c1788135932899_9234",
+      "num": "65",
+      "scope": "all",
+      "firmware": [],
+      "steamid": "",
+      "issuer": "Sovereign",
+      "ts": 1788135932
     }
   ]
 }
